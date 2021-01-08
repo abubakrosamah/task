@@ -1,0 +1,142 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.clear {
+    clear: both;
+}
+.container {
+    width: 1170px;
+    
+    margin: auto;
+}
+
+.header .slider {
+    background-color: #ccc;
+    height: 600px;
+}
+
+.header .nav {
+    background-color: #252f31;
+    color: #fff;
+    overflow: hidden;
+    
+}
+
+.header .nav  h3 {
+    float: left;
+    padding-top: 5px;
+    text-transform: uppercase;
+}
+
+.header .nav  h3 span {color: #2ecc71;}
+
+.header .nav ul {
+    list-style: none;
+    padding: 0px;
+    overflow: hidden;
+    
+}
+
+.header .nav ul li {
+    float: right;
+    padding: 10px;
+}
+
+/*  END HEADER*/
+
+.features {
+    overflow: hidden;
+    padding:30px 0 30px 0;
+}
+
+.features .feat {
+    float: left;
+    width: 33.33333%;
+    height: 150px;
+    background-color: #2ecc71;
+}
+
+.features .feat h2 {text-transform: uppercase;}
+
+/* END feature*/
+
+.aboutme {
+    background-color: #f2f2f2;
+    overflow: hidden;
+    
+}
+
+.aboutme .img {
+    float: left;
+    width: 40%;
+}
+
+.aboutme .img img{width: 100%;}
+
+.aboutme .info {
+    float: left;
+    width: 60%;
+}
+
+.aboutme .info .hoppies {
+    overflow: hidden;
+    margin: 20px;
+}
+
+.aboutme .info .hoppies > div {
+    float: left;
+    width: 50%;
+    min-height: 100px;
+}
+
+/* START my-skills*/
+
+.my-skills {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    overflow: hidden;
+}
+
+.my-skills .skills,
+.my-skills .progress {
+    float: left;
+    width: 50%;
+
+}
+
+/* START Resume*/
+
+.resume {
+    background-color: #f2f2f2;
+    padding: 30px 0 30px 0;
+    text-align: center;
+}
+
+/* START education*/
+
+.my-education{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    overflow: hidden;
+}
+
+.my-education .main,
+.my-education .exp {
+    float: left;
+    width: 50%;
+
+    /* START test*/
+
+}
+
+
+
+.test {
+    background-color: #f2f2f2;
+    padding: 30px 0 30px 0;
+    text-align: center;
+
+
+}
